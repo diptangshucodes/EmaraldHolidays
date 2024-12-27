@@ -1,0 +1,6 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home3/emeravnn/public_html  # Add /<app_folder> if required
+                - /bin cp * $DEPLOYPATH                           #copy all from root 
+       
